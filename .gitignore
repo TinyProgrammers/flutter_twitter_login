@@ -7,3 +7,10 @@ build/
 ios/.generated/
 packages
 pubspec.lock
+.dart_tool/package_config.json
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+example/.flutter-plugins-dependencies
+example/.dart_tool
+example/ios/Flutter/flutter_export_environment.sh

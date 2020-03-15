@@ -1,5 +1,5 @@
-name: flutter_twitter_login_example
-description: Demonstrates how to use the flutter_twitter_login plugin.
+name: flutter_twitter_example
+description: Demonstrates how to use the flutter_twitter plugin.
 
 dependencies:
   flutter:
@@ -13,7 +13,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_twitter_login:
+  flutter_twitter:
     path: ../
 
 # For information on the generic Dart part of this file, see the
@@ -55,5 +55,5 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-  # For details regarding fonts from package dependencies, 
+  # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages

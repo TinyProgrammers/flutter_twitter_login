@@ -1,6 +1,6 @@
-# flutter_twitter_login_example
+# flutter_twitter_example
 
-Demonstrates how to use the flutter_twitter_login plugin.
+Demonstrates how to use the flutter_twitter plugin.
 
 ## Getting Started
 

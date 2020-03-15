@@ -1,11 +1,11 @@
 #import "TwitterLoginPlugin.h"
-#import <TwitterKit/TwitterKit.h>
+#import <TwitterKit/TWTRKit.h>
 
 @implementation TwitterLoginPlugin
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
   FlutterMethodChannel *channel = [FlutterMethodChannel
-      methodChannelWithName:@"com.roughike/flutter_twitter_login"
+      methodChannelWithName:@"com.roughike/flutter_twitter"
             binaryMessenger:[registrar messenger]];
   TwitterLoginPlugin *instance = [[TwitterLoginPlugin alloc] init];
   [registrar addApplicationDelegate:instance];
